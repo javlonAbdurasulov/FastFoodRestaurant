@@ -31,98 +31,122 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.Date1b1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.FriesCb = new System.Windows.Forms.CheckBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.FriesTb = new System.Windows.Forms.TextBox();
-            this.BurgerTb = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.BurgerCb = new System.Windows.Forms.CheckBox();
-            this.SaladTb = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.SaladCb = new System.Windows.Forms.CheckBox();
-            this.SandwichTb = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.SandwichCb = new System.Windows.Forms.CheckBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.CheeseTb = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.CheeseCb = new System.Windows.Forms.CheckBox();
             this.ChickenTb = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.ChickenCb = new System.Windows.Forms.CheckBox();
-            this.CheeseTb = new System.Windows.Forms.TextBox();
-            this.Cheese = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.CheeseCb = new System.Windows.Forms.CheckBox();
+            this.SandwichTb = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.SandwichCb = new System.Windows.Forms.CheckBox();
+            this.SaladTb = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.SaladCb = new System.Windows.Forms.CheckBox();
+            this.BurgerTb = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.BurgerCb = new System.Windows.Forms.CheckBox();
+            this.FriesTb = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.FriesCb = new System.Windows.Forms.CheckBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.OrangeTb = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.OrangeCb = new System.Windows.Forms.CheckBox();
+            this.TeaCb = new System.Windows.Forms.CheckBox();
             this.PancakesTb = new System.Windows.Forms.TextBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.TeaTb = new System.Windows.Forms.TextBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.ColaCb = new System.Windows.Forms.CheckBox();
             this.PancakesCb = new System.Windows.Forms.CheckBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.ChocolateTb = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.ColaTb = new System.Windows.Forms.TextBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.WaterCb = new System.Windows.Forms.CheckBox();
             this.ChocolateCb = new System.Windows.Forms.CheckBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.WaterTb = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.WaterCb = new System.Windows.Forms.CheckBox();
-            this.ColaTb = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.ColaCb = new System.Windows.Forms.CheckBox();
-            this.TeaTb = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.TeaCb = new System.Windows.Forms.CheckBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
-            this.Date1b1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.closelbl = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.Controls.Add(this.closelbl);
             this.panel1.Controls.Add(this.Date1b1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(784, 100);
+            this.panel1.Size = new System.Drawing.Size(763, 100);
             this.panel1.TabIndex = 0;
+            // 
+            // Date1b1
+            // 
+            this.Date1b1.AutoSize = true;
+            this.Date1b1.Font = new System.Drawing.Font("Segoe UI Black", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Date1b1.ForeColor = System.Drawing.Color.Khaki;
+            this.Date1b1.Location = new System.Drawing.Point(619, 60);
+            this.Date1b1.Name = "Date1b1";
+            this.Date1b1.Size = new System.Drawing.Size(103, 25);
+            this.Date1b1.TabIndex = 27;
+            this.Date1b1.Text = "Fast Meal";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Black", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.Color.Khaki;
+            this.label1.Location = new System.Drawing.Point(230, 33);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(317, 32);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "FAST FOOD RESTAURANT";
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.CheeseTb);
-            this.panel2.Controls.Add(this.Cheese);
+            this.panel2.Controls.Add(this.label16);
             this.panel2.Controls.Add(this.pictureBox6);
             this.panel2.Controls.Add(this.CheeseCb);
             this.panel2.Controls.Add(this.ChickenTb);
@@ -150,265 +174,63 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 100);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(227, 491);
+            this.panel2.Size = new System.Drawing.Size(227, 484);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // panel3
+            // CheeseTb
             // 
-            this.panel3.Controls.Add(this.OrangeTb);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.label10);
-            this.panel3.Controls.Add(this.panel5);
-            this.panel3.Controls.Add(this.pictureBox7);
-            this.panel3.Controls.Add(this.label15);
-            this.panel3.Controls.Add(this.OrangeCb);
-            this.panel3.Controls.Add(this.TeaCb);
-            this.panel3.Controls.Add(this.PancakesTb);
-            this.panel3.Controls.Add(this.pictureBox12);
-            this.panel3.Controls.Add(this.label11);
-            this.panel3.Controls.Add(this.TeaTb);
-            this.panel3.Controls.Add(this.pictureBox8);
-            this.panel3.Controls.Add(this.ColaCb);
-            this.panel3.Controls.Add(this.PancakesCb);
-            this.panel3.Controls.Add(this.pictureBox11);
-            this.panel3.Controls.Add(this.ChocolateTb);
-            this.panel3.Controls.Add(this.label14);
-            this.panel3.Controls.Add(this.label12);
-            this.panel3.Controls.Add(this.ColaTb);
-            this.panel3.Controls.Add(this.pictureBox9);
-            this.panel3.Controls.Add(this.WaterCb);
-            this.panel3.Controls.Add(this.ChocolateCb);
-            this.panel3.Controls.Add(this.pictureBox10);
-            this.panel3.Controls.Add(this.WaterTb);
-            this.panel3.Controls.Add(this.label13);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(554, 100);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(230, 491);
-            this.panel3.TabIndex = 2;
+            this.CheeseTb.Enabled = false;
+            this.CheeseTb.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.CheeseTb.Location = new System.Drawing.Point(172, 431);
+            this.CheeseTb.Multiline = true;
+            this.CheeseTb.Name = "CheeseTb";
+            this.CheeseTb.Size = new System.Drawing.Size(33, 30);
+            this.CheeseTb.TabIndex = 25;
+            this.CheeseTb.Text = "0";
+            this.CheeseTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label1
+            // label16
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Black", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.ForeColor = System.Drawing.Color.Khaki;
-            this.label1.Location = new System.Drawing.Point(230, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(317, 32);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "FAST FOOD RESTAURANT";
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label16.ForeColor = System.Drawing.Color.Red;
+            this.label16.Location = new System.Drawing.Point(102, 434);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(65, 21);
+            this.label16.TabIndex = 24;
+            this.label16.Text = "Cheese";
             // 
-            // panel4
+            // pictureBox6
             // 
-            this.panel4.BackColor = System.Drawing.Color.Khaki;
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(16, 491);
-            this.panel4.TabIndex = 0;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(42, 422);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(43, 46);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 23;
+            this.pictureBox6.TabStop = false;
             // 
-            // panel5
+            // CheeseCb
             // 
-            this.panel5.BackColor = System.Drawing.Color.Khaki;
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel5.Location = new System.Drawing.Point(212, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(18, 491);
-            this.panel5.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Black", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(62, 24);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Fast Meal";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Black", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(13, 24);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(190, 25);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Drinks And Dessert";
-            // 
-            // FriesCb
-            // 
-            this.FriesCb.AutoSize = true;
-            this.FriesCb.Location = new System.Drawing.Point(21, 87);
-            this.FriesCb.Name = "FriesCb";
-            this.FriesCb.Size = new System.Drawing.Size(15, 14);
-            this.FriesCb.TabIndex = 2;
-            this.FriesCb.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(42, 69);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(43, 46);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(102, 81);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 21);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Friest";
-            // 
-            // FriesTb
-            // 
-            this.FriesTb.Enabled = false;
-            this.FriesTb.Location = new System.Drawing.Point(172, 78);
-            this.FriesTb.Multiline = true;
-            this.FriesTb.Name = "FriesTb";
-            this.FriesTb.Size = new System.Drawing.Size(33, 30);
-            this.FriesTb.TabIndex = 5;
-            this.FriesTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.FriesTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // BurgerTb
-            // 
-            this.BurgerTb.Enabled = false;
-            this.BurgerTb.Location = new System.Drawing.Point(172, 140);
-            this.BurgerTb.Multiline = true;
-            this.BurgerTb.Name = "BurgerTb";
-            this.BurgerTb.Size = new System.Drawing.Size(33, 30);
-            this.BurgerTb.TabIndex = 9;
-            this.BurgerTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(102, 143);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 21);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Burger";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(42, 131);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(43, 46);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
-            // 
-            // BurgerCb
-            // 
-            this.BurgerCb.AutoSize = true;
-            this.BurgerCb.Location = new System.Drawing.Point(21, 149);
-            this.BurgerCb.Name = "BurgerCb";
-            this.BurgerCb.Size = new System.Drawing.Size(15, 14);
-            this.BurgerCb.TabIndex = 6;
-            this.BurgerCb.UseVisualStyleBackColor = true;
-            // 
-            // SaladTb
-            // 
-            this.SaladTb.Enabled = false;
-            this.SaladTb.Location = new System.Drawing.Point(172, 208);
-            this.SaladTb.Multiline = true;
-            this.SaladTb.Name = "SaladTb";
-            this.SaladTb.Size = new System.Drawing.Size(33, 30);
-            this.SaladTb.TabIndex = 13;
-            this.SaladTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(102, 211);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(52, 21);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "Salad";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(42, 199);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(43, 46);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
-            // 
-            // SaladCb
-            // 
-            this.SaladCb.AutoSize = true;
-            this.SaladCb.Location = new System.Drawing.Point(21, 217);
-            this.SaladCb.Name = "SaladCb";
-            this.SaladCb.Size = new System.Drawing.Size(15, 14);
-            this.SaladCb.TabIndex = 10;
-            this.SaladCb.UseVisualStyleBackColor = true;
-            // 
-            // SandwichTb
-            // 
-            this.SandwichTb.Enabled = false;
-            this.SandwichTb.Location = new System.Drawing.Point(172, 280);
-            this.SandwichTb.Multiline = true;
-            this.SandwichTb.Name = "SandwichTb";
-            this.SandwichTb.Size = new System.Drawing.Size(33, 30);
-            this.SandwichTb.TabIndex = 17;
-            this.SandwichTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(91, 283);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(85, 21);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Sandwich";
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(42, 271);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(43, 46);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 15;
-            this.pictureBox4.TabStop = false;
-            // 
-            // SandwichCb
-            // 
-            this.SandwichCb.AutoSize = true;
-            this.SandwichCb.Location = new System.Drawing.Point(21, 289);
-            this.SandwichCb.Name = "SandwichCb";
-            this.SandwichCb.Size = new System.Drawing.Size(15, 14);
-            this.SandwichCb.TabIndex = 14;
-            this.SandwichCb.UseVisualStyleBackColor = true;
+            this.CheeseCb.AutoSize = true;
+            this.CheeseCb.Location = new System.Drawing.Point(21, 440);
+            this.CheeseCb.Name = "CheeseCb";
+            this.CheeseCb.Size = new System.Drawing.Size(15, 14);
+            this.CheeseCb.TabIndex = 22;
+            this.CheeseCb.UseVisualStyleBackColor = true;
+            this.CheeseCb.CheckedChanged += new System.EventHandler(this.CheeseCb_CheckedChanged);
             // 
             // ChickenTb
             // 
             this.ChickenTb.Enabled = false;
+            this.ChickenTb.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChickenTb.Location = new System.Drawing.Point(172, 357);
             this.ChickenTb.Multiline = true;
             this.ChickenTb.Name = "ChickenTb";
             this.ChickenTb.Size = new System.Drawing.Size(33, 30);
             this.ChickenTb.TabIndex = 21;
+            this.ChickenTb.Text = "0";
             this.ChickenTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label8
@@ -440,56 +262,260 @@
             this.ChickenCb.Size = new System.Drawing.Size(15, 14);
             this.ChickenCb.TabIndex = 18;
             this.ChickenCb.UseVisualStyleBackColor = true;
+            this.ChickenCb.CheckedChanged += new System.EventHandler(this.ChickenCb_CheckedChanged);
             // 
-            // CheeseTb
+            // SandwichTb
             // 
-            this.CheeseTb.Enabled = false;
-            this.CheeseTb.Location = new System.Drawing.Point(172, 431);
-            this.CheeseTb.Multiline = true;
-            this.CheeseTb.Name = "CheeseTb";
-            this.CheeseTb.Size = new System.Drawing.Size(33, 30);
-            this.CheeseTb.TabIndex = 25;
-            this.CheeseTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SandwichTb.Enabled = false;
+            this.SandwichTb.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SandwichTb.Location = new System.Drawing.Point(172, 280);
+            this.SandwichTb.Multiline = true;
+            this.SandwichTb.Name = "SandwichTb";
+            this.SandwichTb.Size = new System.Drawing.Size(33, 30);
+            this.SandwichTb.TabIndex = 17;
+            this.SandwichTb.Text = "0";
+            this.SandwichTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // Cheese
+            // label7
             // 
-            this.Cheese.AutoSize = true;
-            this.Cheese.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Cheese.ForeColor = System.Drawing.Color.Red;
-            this.Cheese.Location = new System.Drawing.Point(102, 434);
-            this.Cheese.Name = "Cheese";
-            this.Cheese.Size = new System.Drawing.Size(55, 21);
-            this.Cheese.TabIndex = 24;
-            this.Cheese.Text = "Friest";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.ForeColor = System.Drawing.Color.Red;
+            this.label7.Location = new System.Drawing.Point(91, 283);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(85, 21);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Sandwich";
             // 
-            // pictureBox6
+            // pictureBox4
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(42, 422);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(43, 46);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 23;
-            this.pictureBox6.TabStop = false;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(42, 271);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(43, 46);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 15;
+            this.pictureBox4.TabStop = false;
             // 
-            // CheeseCb
+            // SandwichCb
             // 
-            this.CheeseCb.AutoSize = true;
-            this.CheeseCb.Location = new System.Drawing.Point(21, 440);
-            this.CheeseCb.Name = "CheeseCb";
-            this.CheeseCb.Size = new System.Drawing.Size(15, 14);
-            this.CheeseCb.TabIndex = 22;
-            this.CheeseCb.UseVisualStyleBackColor = true;
+            this.SandwichCb.AutoSize = true;
+            this.SandwichCb.Location = new System.Drawing.Point(21, 289);
+            this.SandwichCb.Name = "SandwichCb";
+            this.SandwichCb.Size = new System.Drawing.Size(15, 14);
+            this.SandwichCb.TabIndex = 14;
+            this.SandwichCb.UseVisualStyleBackColor = true;
+            this.SandwichCb.CheckedChanged += new System.EventHandler(this.SandwichCb_CheckedChanged);
+            // 
+            // SaladTb
+            // 
+            this.SaladTb.Enabled = false;
+            this.SaladTb.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SaladTb.Location = new System.Drawing.Point(172, 208);
+            this.SaladTb.Multiline = true;
+            this.SaladTb.Name = "SaladTb";
+            this.SaladTb.Size = new System.Drawing.Size(33, 30);
+            this.SaladTb.TabIndex = 13;
+            this.SaladTb.Text = "0";
+            this.SaladTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.ForeColor = System.Drawing.Color.Red;
+            this.label6.Location = new System.Drawing.Point(102, 211);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(52, 21);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Salad";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(42, 199);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(43, 46);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            // 
+            // SaladCb
+            // 
+            this.SaladCb.AutoSize = true;
+            this.SaladCb.Location = new System.Drawing.Point(21, 217);
+            this.SaladCb.Name = "SaladCb";
+            this.SaladCb.Size = new System.Drawing.Size(15, 14);
+            this.SaladCb.TabIndex = 10;
+            this.SaladCb.UseVisualStyleBackColor = true;
+            this.SaladCb.CheckedChanged += new System.EventHandler(this.SaladCb_CheckedChanged);
+            // 
+            // BurgerTb
+            // 
+            this.BurgerTb.Enabled = false;
+            this.BurgerTb.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.BurgerTb.Location = new System.Drawing.Point(172, 140);
+            this.BurgerTb.Multiline = true;
+            this.BurgerTb.Name = "BurgerTb";
+            this.BurgerTb.Size = new System.Drawing.Size(33, 30);
+            this.BurgerTb.TabIndex = 9;
+            this.BurgerTb.Text = "0";
+            this.BurgerTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.Location = new System.Drawing.Point(102, 143);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 21);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Burger";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(42, 131);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(43, 46);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            // 
+            // BurgerCb
+            // 
+            this.BurgerCb.AutoSize = true;
+            this.BurgerCb.Location = new System.Drawing.Point(21, 149);
+            this.BurgerCb.Name = "BurgerCb";
+            this.BurgerCb.Size = new System.Drawing.Size(15, 14);
+            this.BurgerCb.TabIndex = 6;
+            this.BurgerCb.UseVisualStyleBackColor = true;
+            this.BurgerCb.CheckedChanged += new System.EventHandler(this.BurgerCb_CheckedChanged);
+            // 
+            // FriesTb
+            // 
+            this.FriesTb.Enabled = false;
+            this.FriesTb.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FriesTb.Location = new System.Drawing.Point(172, 78);
+            this.FriesTb.Multiline = true;
+            this.FriesTb.Name = "FriesTb";
+            this.FriesTb.Size = new System.Drawing.Size(33, 30);
+            this.FriesTb.TabIndex = 5;
+            this.FriesTb.Text = "0";
+            this.FriesTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.FriesTb.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.ForeColor = System.Drawing.Color.Red;
+            this.label4.Location = new System.Drawing.Point(102, 81);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(55, 21);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Friest";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(42, 69);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(43, 46);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // FriesCb
+            // 
+            this.FriesCb.AutoSize = true;
+            this.FriesCb.Location = new System.Drawing.Point(21, 87);
+            this.FriesCb.Name = "FriesCb";
+            this.FriesCb.Size = new System.Drawing.Size(15, 14);
+            this.FriesCb.TabIndex = 2;
+            this.FriesCb.UseVisualStyleBackColor = true;
+            this.FriesCb.CheckedChanged += new System.EventHandler(this.FriesCb_CheckedChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Black", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(62, 24);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(103, 25);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Fast Meal";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Khaki;
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(16, 484);
+            this.panel4.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.OrangeTb);
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.label10);
+            this.panel3.Controls.Add(this.panel5);
+            this.panel3.Controls.Add(this.pictureBox7);
+            this.panel3.Controls.Add(this.label15);
+            this.panel3.Controls.Add(this.OrangeCb);
+            this.panel3.Controls.Add(this.TeaCb);
+            this.panel3.Controls.Add(this.PancakesTb);
+            this.panel3.Controls.Add(this.pictureBox12);
+            this.panel3.Controls.Add(this.label11);
+            this.panel3.Controls.Add(this.TeaTb);
+            this.panel3.Controls.Add(this.pictureBox8);
+            this.panel3.Controls.Add(this.ColaCb);
+            this.panel3.Controls.Add(this.PancakesCb);
+            this.panel3.Controls.Add(this.pictureBox11);
+            this.panel3.Controls.Add(this.ChocolateTb);
+            this.panel3.Controls.Add(this.label14);
+            this.panel3.Controls.Add(this.label12);
+            this.panel3.Controls.Add(this.ColaTb);
+            this.panel3.Controls.Add(this.pictureBox9);
+            this.panel3.Controls.Add(this.WaterCb);
+            this.panel3.Controls.Add(this.ChocolateCb);
+            this.panel3.Controls.Add(this.pictureBox10);
+            this.panel3.Controls.Add(this.WaterTb);
+            this.panel3.Controls.Add(this.label13);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.panel3.Location = new System.Drawing.Point(533, 100);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(230, 484);
+            this.panel3.TabIndex = 2;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // OrangeTb
             // 
             this.OrangeTb.Enabled = false;
+            this.OrangeTb.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.OrangeTb.Location = new System.Drawing.Point(165, 430);
             this.OrangeTb.Multiline = true;
             this.OrangeTb.Name = "OrangeTb";
             this.OrangeTb.Size = new System.Drawing.Size(33, 30);
             this.OrangeTb.TabIndex = 49;
+            this.OrangeTb.Text = "0";
             this.OrangeTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI Black", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(13, 24);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(190, 25);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Drinks And Dessert";
             // 
             // label10
             // 
@@ -503,6 +529,15 @@
             this.label10.Tag = "";
             this.label10.Text = "Orange";
             // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Khaki;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel5.Location = new System.Drawing.Point(212, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(18, 484);
+            this.panel5.TabIndex = 0;
+            // 
             // pictureBox7
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
@@ -513,6 +548,17 @@
             this.pictureBox7.TabIndex = 47;
             this.pictureBox7.TabStop = false;
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label15.ForeColor = System.Drawing.Color.Red;
+            this.label15.Location = new System.Drawing.Point(91, 80);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(38, 21);
+            this.label15.TabIndex = 28;
+            this.label15.Text = "Tea";
+            // 
             // OrangeCb
             // 
             this.OrangeCb.AutoSize = true;
@@ -521,16 +567,39 @@
             this.OrangeCb.Size = new System.Drawing.Size(15, 14);
             this.OrangeCb.TabIndex = 46;
             this.OrangeCb.UseVisualStyleBackColor = true;
+            this.OrangeCb.CheckedChanged += new System.EventHandler(this.OrangeCb_CheckedChanged);
+            // 
+            // TeaCb
+            // 
+            this.TeaCb.AutoSize = true;
+            this.TeaCb.Location = new System.Drawing.Point(10, 86);
+            this.TeaCb.Name = "TeaCb";
+            this.TeaCb.Size = new System.Drawing.Size(15, 14);
+            this.TeaCb.TabIndex = 26;
+            this.TeaCb.UseVisualStyleBackColor = true;
+            this.TeaCb.CheckedChanged += new System.EventHandler(this.TeaCb_CheckedChanged);
             // 
             // PancakesTb
             // 
             this.PancakesTb.Enabled = false;
+            this.PancakesTb.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.PancakesTb.Location = new System.Drawing.Point(165, 356);
             this.PancakesTb.Multiline = true;
             this.PancakesTb.Name = "PancakesTb";
             this.PancakesTb.Size = new System.Drawing.Size(33, 30);
             this.PancakesTb.TabIndex = 45;
+            this.PancakesTb.Text = "0";
             this.PancakesTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
+            this.pictureBox12.Location = new System.Drawing.Point(31, 68);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(43, 46);
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox12.TabIndex = 27;
+            this.pictureBox12.TabStop = false;
             // 
             // label11
             // 
@@ -543,6 +612,18 @@
             this.label11.TabIndex = 44;
             this.label11.Text = "Pancakes";
             // 
+            // TeaTb
+            // 
+            this.TeaTb.Enabled = false;
+            this.TeaTb.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TeaTb.Location = new System.Drawing.Point(165, 77);
+            this.TeaTb.Multiline = true;
+            this.TeaTb.Name = "TeaTb";
+            this.TeaTb.Size = new System.Drawing.Size(33, 30);
+            this.TeaTb.TabIndex = 29;
+            this.TeaTb.Text = "0";
+            this.TeaTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // pictureBox8
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
@@ -553,6 +634,16 @@
             this.pictureBox8.TabIndex = 43;
             this.pictureBox8.TabStop = false;
             // 
+            // ColaCb
+            // 
+            this.ColaCb.AutoSize = true;
+            this.ColaCb.Location = new System.Drawing.Point(10, 148);
+            this.ColaCb.Name = "ColaCb";
+            this.ColaCb.Size = new System.Drawing.Size(15, 14);
+            this.ColaCb.TabIndex = 30;
+            this.ColaCb.UseVisualStyleBackColor = true;
+            this.ColaCb.CheckedChanged += new System.EventHandler(this.ColaCb_CheckedChanged);
+            // 
             // PancakesCb
             // 
             this.PancakesCb.AutoSize = true;
@@ -561,16 +652,40 @@
             this.PancakesCb.Size = new System.Drawing.Size(15, 14);
             this.PancakesCb.TabIndex = 42;
             this.PancakesCb.UseVisualStyleBackColor = true;
+            this.PancakesCb.CheckedChanged += new System.EventHandler(this.PancakesCb_CheckedChanged);
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
+            this.pictureBox11.Location = new System.Drawing.Point(31, 130);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(43, 46);
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox11.TabIndex = 31;
+            this.pictureBox11.TabStop = false;
             // 
             // ChocolateTb
             // 
             this.ChocolateTb.Enabled = false;
+            this.ChocolateTb.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ChocolateTb.Location = new System.Drawing.Point(165, 279);
             this.ChocolateTb.Multiline = true;
             this.ChocolateTb.Name = "ChocolateTb";
             this.ChocolateTb.Size = new System.Drawing.Size(33, 30);
             this.ChocolateTb.TabIndex = 41;
+            this.ChocolateTb.Text = "0";
             this.ChocolateTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label14.ForeColor = System.Drawing.Color.Red;
+            this.label14.Location = new System.Drawing.Point(91, 142);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(44, 21);
+            this.label14.TabIndex = 32;
+            this.label14.Text = "Cola";
             // 
             // label12
             // 
@@ -583,6 +698,18 @@
             this.label12.TabIndex = 40;
             this.label12.Text = "Chocolate";
             // 
+            // ColaTb
+            // 
+            this.ColaTb.Enabled = false;
+            this.ColaTb.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ColaTb.Location = new System.Drawing.Point(165, 139);
+            this.ColaTb.Multiline = true;
+            this.ColaTb.Name = "ColaTb";
+            this.ColaTb.Size = new System.Drawing.Size(33, 30);
+            this.ColaTb.TabIndex = 33;
+            this.ColaTb.Text = "0";
+            this.ColaTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
@@ -593,6 +720,16 @@
             this.pictureBox9.TabIndex = 39;
             this.pictureBox9.TabStop = false;
             // 
+            // WaterCb
+            // 
+            this.WaterCb.AutoSize = true;
+            this.WaterCb.Location = new System.Drawing.Point(10, 216);
+            this.WaterCb.Name = "WaterCb";
+            this.WaterCb.Size = new System.Drawing.Size(15, 14);
+            this.WaterCb.TabIndex = 34;
+            this.WaterCb.UseVisualStyleBackColor = true;
+            this.WaterCb.CheckedChanged += new System.EventHandler(this.WaterCb_CheckedChanged);
+            // 
             // ChocolateCb
             // 
             this.ChocolateCb.AutoSize = true;
@@ -601,15 +738,28 @@
             this.ChocolateCb.Size = new System.Drawing.Size(15, 14);
             this.ChocolateCb.TabIndex = 38;
             this.ChocolateCb.UseVisualStyleBackColor = true;
+            this.ChocolateCb.CheckedChanged += new System.EventHandler(this.ChocolateCb_CheckedChanged);
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(31, 198);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(43, 46);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 35;
+            this.pictureBox10.TabStop = false;
             // 
             // WaterTb
             // 
             this.WaterTb.Enabled = false;
+            this.WaterTb.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.WaterTb.Location = new System.Drawing.Point(165, 207);
             this.WaterTb.Multiline = true;
             this.WaterTb.Name = "WaterTb";
             this.WaterTb.Size = new System.Drawing.Size(33, 30);
             this.WaterTb.TabIndex = 37;
+            this.WaterTb.Text = "0";
             this.WaterTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label13
@@ -623,105 +773,6 @@
             this.label13.TabIndex = 36;
             this.label13.Text = "Water";
             // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(31, 198);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(43, 46);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 35;
-            this.pictureBox10.TabStop = false;
-            // 
-            // WaterCb
-            // 
-            this.WaterCb.AutoSize = true;
-            this.WaterCb.Location = new System.Drawing.Point(10, 216);
-            this.WaterCb.Name = "WaterCb";
-            this.WaterCb.Size = new System.Drawing.Size(15, 14);
-            this.WaterCb.TabIndex = 34;
-            this.WaterCb.UseVisualStyleBackColor = true;
-            // 
-            // ColaTb
-            // 
-            this.ColaTb.Enabled = false;
-            this.ColaTb.Location = new System.Drawing.Point(165, 139);
-            this.ColaTb.Multiline = true;
-            this.ColaTb.Name = "ColaTb";
-            this.ColaTb.Size = new System.Drawing.Size(33, 30);
-            this.ColaTb.TabIndex = 33;
-            this.ColaTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label14.ForeColor = System.Drawing.Color.Red;
-            this.label14.Location = new System.Drawing.Point(91, 142);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(44, 21);
-            this.label14.TabIndex = 32;
-            this.label14.Text = "Cola";
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
-            this.pictureBox11.Location = new System.Drawing.Point(31, 130);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(43, 46);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 31;
-            this.pictureBox11.TabStop = false;
-            // 
-            // ColaCb
-            // 
-            this.ColaCb.AutoSize = true;
-            this.ColaCb.Location = new System.Drawing.Point(10, 148);
-            this.ColaCb.Name = "ColaCb";
-            this.ColaCb.Size = new System.Drawing.Size(15, 14);
-            this.ColaCb.TabIndex = 30;
-            this.ColaCb.UseVisualStyleBackColor = true;
-            // 
-            // TeaTb
-            // 
-            this.TeaTb.Enabled = false;
-            this.TeaTb.Location = new System.Drawing.Point(165, 77);
-            this.TeaTb.Multiline = true;
-            this.TeaTb.Name = "TeaTb";
-            this.TeaTb.Size = new System.Drawing.Size(33, 30);
-            this.TeaTb.TabIndex = 29;
-            this.TeaTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(91, 80);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(38, 21);
-            this.label15.TabIndex = 28;
-            this.label15.Text = "Tea";
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(31, 68);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(43, 46);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 27;
-            this.pictureBox12.TabStop = false;
-            // 
-            // TeaCb
-            // 
-            this.TeaCb.AutoSize = true;
-            this.TeaCb.Location = new System.Drawing.Point(10, 86);
-            this.TeaCb.Name = "TeaCb";
-            this.TeaCb.Size = new System.Drawing.Size(15, 14);
-            this.TeaCb.TabIndex = 26;
-            this.TeaCb.UseVisualStyleBackColor = true;
-            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Khaki;
@@ -729,7 +780,7 @@
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(227, 100);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(327, 49);
+            this.panel6.Size = new System.Drawing.Size(306, 49);
             this.panel6.TabIndex = 3;
             this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
@@ -744,26 +795,27 @@
             this.label9.TabIndex = 26;
             this.label9.Text = "Fast Meal";
             // 
-            // Date1b1
-            // 
-            this.Date1b1.AutoSize = true;
-            this.Date1b1.Font = new System.Drawing.Font("Segoe UI Black", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Date1b1.ForeColor = System.Drawing.Color.Khaki;
-            this.Date1b1.Location = new System.Drawing.Point(619, 60);
-            this.Date1b1.Name = "Date1b1";
-            this.Date1b1.Size = new System.Drawing.Size(103, 25);
-            this.Date1b1.TabIndex = 27;
-            this.Date1b1.Text = "Fast Meal";
-            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // closelbl
+            // 
+            this.closelbl.AutoSize = true;
+            this.closelbl.Font = new System.Drawing.Font("Segoe UI Black", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.closelbl.ForeColor = System.Drawing.Color.Khaki;
+            this.closelbl.Location = new System.Drawing.Point(726, 9);
+            this.closelbl.Name = "closelbl";
+            this.closelbl.Size = new System.Drawing.Size(25, 25);
+            this.closelbl.TabIndex = 28;
+            this.closelbl.Text = "X";
+            this.closelbl.Click += new System.EventHandler(this.closelbl_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 591);
+            this.ClientSize = new System.Drawing.Size(763, 584);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -777,20 +829,20 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.ResumeLayout(false);
@@ -812,7 +864,7 @@
         private System.Windows.Forms.CheckBox FriesCb;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox CheeseTb;
-        private System.Windows.Forms.Label Cheese;
+        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.CheckBox CheeseCb;
         private System.Windows.Forms.TextBox ChickenTb;
@@ -859,6 +911,7 @@
         private System.Windows.Forms.Label Date1b1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label closelbl;
     }
 }
 
